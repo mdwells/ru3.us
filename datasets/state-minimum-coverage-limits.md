@@ -1,7 +1,13 @@
 ---
-title: State Minimum Auto Liability Coverage Limits
-description: Minimum required auto liability coverage limits by U.S. state.
+title: Minimum Auto Insurance Liability Requirements by State
+dataset_id: state-minimum-coverage-limits
+version: 2025.01
+last_updated: 2025-01-01
+description: >
+  Minimum required auto insurance liability limits (BI/BI/PD) for all U.S. states and D.C.
+  Includes bodily injury per person, bodily injury per accident, and property damage minimums.
 ---
+
 
 # State Minimum Auto Liability Coverage Limits
 
