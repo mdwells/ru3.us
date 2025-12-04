@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Root -->
   <url><loc>https://ru3.us/</loc></url>
 
-  <!-- Datasets index + docs + CSV/JSON -->
+  <!-- Dataset Hub -->
   <url><loc>https://ru3.us/datasets/</loc></url>
-
   <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits</loc></url>
-  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.csv</loc></url>
-  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.json</loc></url>
-
   <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage</loc></url>
-  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage.csv</loc></url>
-  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage.json</loc></url>
-
   <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage</loc></url>
-  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage.csv</loc></url>
-  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage.json</loc></url>
 
-  <!-- State index + JSON index -->
-  <url><loc>https://ru3
+  <!-- State Index -->
+  <url><loc>https://ru3.us/state/</loc></url>
+
+  <!-- Selected High-Value State Pages -->
+  <url><loc>https://ru3.us/state/california-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/florida-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/michigan-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/new-york-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/texas-minimum-auto-insurance</loc></url>
+
+  <!-- High-Intent Question Pages -->
+  <url><loc>https://ru3.us/what-is-pip-coverage</loc></url>
+  <url><loc>https://ru3.us/is-florida-a-no-fault-state</loc></url>
+  <url><loc>https://ru3.us/is-new-york-a-no-fault-state</loc></url>
+  <url><loc>https://ru3.us/is-michigan-a-no-fault-state</loc></url>
+  <url><loc>https://ru3.us/which-states-require-pip</loc></url>
+
+  <!-- Glossary Index -->
+  <url><loc>https://ru3.us/glossary/</loc></url>
+
+  <!-- Methodology Hub -->
+  <url><loc>https://ru3.us/methodology/minimum-liability-dataset-methodology</loc></url>
+  <url><loc>https://ru3.us/methodology/um-uim-dataset-methodology</loc></url>
+  <url><loc>https://ru3.us/methodology/pip-no-fault-dataset-methodology</loc></url>
+
+</urlset>
