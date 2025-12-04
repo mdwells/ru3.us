@@ -71,6 +71,24 @@ Because the underlying source is incomplete on UM/UIM, many states are conservat
 
 ---
 
+## 🧾 Personal Injury Protection (PIP) / No-Fault Dataset (Version 2025.01)
+
+This dataset captures where an initial 2025 reference explicitly describes **personal injury protection (PIP)** requirements and records the core PIP medical amount and descriptive text. It does **not** yet classify states as tort vs. no-fault; all entries have `no_fault_status = "unknown"` in Version 2025.01.
+
+### Access the Dataset
+
+- **Dataset documentation:**  
+  ➜ [PIP / No-Fault Coverage Dataset](/datasets/state-pip-no-fault-coverage)
+
+- **Download the dataset:**  
+  - **CSV:** [state-pip-no-fault-coverage.csv](/datasets/state-pip-no-fault-coverage.csv)  
+  - **JSON:** [state-pip-no-fault-coverage.json](/datasets/state-pip-no-fault-coverage.json)
+
+- **Methodology:**  
+  ➜ [Methodology for the PIP / No-Fault Dataset](/methodology/pip-no-fault-dataset-methodology)
+
+---
+
 ## 📚 Reference Pages Built from This Dataset
 
 These pages provide narrative explanations and state-specific context using the structured data.
