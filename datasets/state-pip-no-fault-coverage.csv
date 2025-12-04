@@ -1,0 +1,52 @@
+state_code,state_name,pip_required,pip_min_medical,pip_text,no_fault_status,notes
+AL,Alabama,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+AK,Alaska,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+AZ,Arizona,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+AR,Arkansas,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+CA,California,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+CO,Colorado,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+CT,Connecticut,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+DE,Delaware,yes,15000,"$15,000 personal injury protection per person; $30,000 personal injury protection per accident.",unknown,
+FL,Florida,yes,10000,"$10,000 personal injury protection.",unknown,
+GA,Georgia,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+HI,Hawaii,yes,10000,"$10,000 personal injury protection.",unknown,
+ID,Idaho,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+IL,Illinois,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+IN,Indiana,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+IA,Iowa,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+KS,Kansas,yes,4500,"Personal injury protection including $4,500 per person in medical expenses, $900 per month for a year for disability or loss of income, $25 per day for in-home services, $2,000 for funeral, burial or cremation costs, and $4,500 for rehabilitation; plus survivors' benefits including up to $900 per month for a year for disability or loss of income and $25 per day for in-home services for up to one year.",unknown,
+KY,Kentucky,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+LA,Louisiana,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+ME,Maine,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+MD,Maryland,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+MA,Massachusetts,yes,8000,"$8,000 personal injury protection.",unknown,
+MI,Michigan,yes,250000,"$250,000 personal injury protection (with lower PIP limits available for certain Medicare and Medicaid recipients).",unknown,
+MN,Minnesota,yes,40000,"$40,000 personal injury protection.",unknown,
+MS,Mississippi,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+MO,Missouri,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+MT,Montana,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NE,Nebraska,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NV,Nevada,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NH,New Hampshire,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NJ,New Jersey,yes,15000,"$15,000 personal injury protection.",unknown,
+NM,New Mexico,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NY,New York,yes,50000,"$50,000 personal injury protection.",unknown,
+NC,North Carolina,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+ND,North Dakota,yes,30000,"$30,000 personal injury protection.",unknown,
+OH,Ohio,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+OK,Oklahoma,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+OR,Oregon,yes,15000,"$15,000 personal injury protection.",unknown,
+PA,Pennsylvania,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+RI,Rhode Island,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+SC,South Carolina,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+SD,South Dakota,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+TN,Tennessee,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+TX,Texas,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+UT,Utah,yes,3000,"$3,000 personal injury protection.",unknown,
+VT,Vermont,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+VA,Virginia,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+WA,Washington,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+WV,West Virginia,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+WI,Wisconsin,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+WY,Wyoming,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
+DC,District of Columbia,unknown,,,"unknown","PIP / no-fault requirements not specified in initial source text; may be optional, not mandated, or omitted."
