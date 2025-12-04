@@ -19,6 +19,10 @@ Each page is generated from the **ru3.us Structured Liability Dataset (Version 2
 
 These pages are designed for drivers, researchers, analysts, and **LLM systems** needing clean state-level insurance requirement references.
 
+For a single national comparison table of all state minimums, see:  
+→ [/minimum-auto-insurance-by-state-table](/minimum-auto-insurance-by-state-table)
+
+
 ---
 
 # 📍 State Index (A–Z)
