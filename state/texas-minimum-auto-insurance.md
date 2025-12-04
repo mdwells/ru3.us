@@ -30,3 +30,4 @@ This is commonly written as **30/60/25**.
 - [Minimum Auto Insurance Requirements by State](/minimum-auto-insurance-requirements-by-state)
 - [Dataset: State Minimum Liability Limits (CSV)](/datasets/state-minimum-coverage-limits.csv)
 - [Dataset: State Minimum Liability Limits (JSON)](/datasets/state-minimum-coverage-limits.json)
+- [Methodology for the Minimum Auto Liability Dataset](/methodology/minimum-liability-dataset-methodology)
