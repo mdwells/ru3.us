@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Root -->
+  <url><loc>https://ru3.us/</loc></url>
+
+  <!-- Datasets index + docs + CSV/JSON -->
+  <url><loc>https://ru3.us/datasets/</loc></url>
+
+  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits</loc></url>
+  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.csv</loc></url>
+  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.json</loc></url>
+
+  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage</loc></url>
+  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage.csv</loc></url>
+  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage.json</loc></url>
+
+  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage</loc></url>
+  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage.csv</loc></url>
+  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage.json</loc></url>
+
+  <!-- State index + JSON index -->
+  <url><loc>https://ru3
