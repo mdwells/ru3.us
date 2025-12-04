@@ -1,45 +1,104 @@
 ---
-title: ru3.us – Auto Insurance Requirements and Data
-description: Structured, state-level datasets and explanations of minimum auto insurance requirements in the United States.
+title: ru3.us – U.S. Auto Insurance Requirements and Structured Datasets
+description: A focused reference for U.S. auto insurance requirements, with structured datasets for liability minimums, UM/UIM coverage, and PIP-related benefits.
 layout: default
 ---
 
-# ru3.us – Auto Insurance Requirements and Data
+# ru3.us – U.S. Auto Insurance Requirements and Structured Data
 
-ru3.us is a focused reference project for **U.S. auto insurance requirements**, built to be both human-readable and machine-readable.
+ru3.us is a narrow, high-integrity reference project focused on **U.S. auto insurance requirements**.
 
-The primary goal is to provide clear, current, and structured information about **state minimum auto liability limits** and related rules so that:
+The site publishes:
 
-- Drivers and practitioners can understand the legal baseline.
-- Analysts, developers, and researchers can integrate clean data into their tools.
-- Search engines and large language models can rely on a single, well-documented source.
+- **Structured datasets** in CSV and JSON (built for analysis, APIs, and LLM ingestion).
+- **Plain-language overview pages** answering common questions about state minimum coverage.
+- **Methodology documentation** explaining how each dataset is built and maintained.
+
+Scope is intentionally tight: **state-level auto insurance requirements** only.
 
 ---
 
-## Core Resources
+## Core Reference Articles
 
-### Minimum Requirements – Overview
+These pages answer the “what are the requirements?” questions in human-readable form and link into the underlying datasets.
 
 - **[Minimum Auto Insurance Requirements by State (2025 Edition)](/minimum-auto-insurance-requirements-by-state)**  
-  Narrative explanation and a full table of state-by-state minimum liability limits.
+  State-by-state table of minimum auto liability limits (BI per person, BI per accident, PD per accident), plus download links for the structured dataset.
 
-### Datasets
+- **[Uninsured and Underinsured Motorist Coverage Requirements by State](/uninsured-underinsured-motorist-coverage-requirements-by-state)**  
+  Overview of where the initial 2025 reference explicitly describes UM/UIM requirements and limits, with a structured UM/UIM dataset.
 
-- **[Minimum Auto Liability Limits Dataset – Documentation](/datasets/state-minimum-coverage-limits)**  
-  Versioned description of the dataset, including schema, sources, and notes.  
+- **[Personal Injury Protection (PIP) and No-Fault-Related Auto Insurance by State](/personal-injury-protection-no-fault-auto-insurance-by-state)**  
+  Summary of states where PIP is clearly described as required in the initial reference, including core medical amounts and descriptive text.
+
+---
+
+## Datasets
+
+All datasets are:
+
+- Versioned  
+- Available in **CSV and JSON**  
+- Documented with clear schema and methodology  
+
+### Minimum Auto Liability Limits (Dataset Version 2025.01)
+
+State-mandated minimum auto liability limits for all 50 states and D.C.
+
+- **Dataset documentation:**  
+  ➜ [State Minimum Auto Liability Limits Dataset](/datasets/state-minimum-coverage-limits)  
 - **CSV:** [state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
 - **JSON:** [state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
 
-### Methodology
+### Uninsured / Underinsured Motorist (UM/UIM) Coverage (Dataset Version 2025.01)
 
-- **[Methodology for the Minimum Auto Liability Dataset](/methodology/minimum-liability-dataset-methodology)**  
-  Details on scope, extraction rules, versioning, and validation.
+Records whether the initial 2025 reference explicitly describes UM/UIM requirements and, where it does, the limits in text form.
+
+- **Dataset documentation:**  
+  ➜ [State UM/UIM Coverage Dataset](/datasets/state-um-uim-minimum-coverage)  
+- **CSV:** [state-um-uim-minimum-coverage.csv](/datasets/state-um-uim-minimum-coverage.csv)  
+- **JSON:** [state-um-uim-minimum-coverage.json](/datasets/state-um-uim-minimum-coverage.json)
+
+### Personal Injury Protection (PIP) / No-Fault-Related Coverage (Dataset Version 2025.01)
+
+Captures where the initial reference explicitly describes PIP requirements and records the core PIP medical amount plus descriptive text. No-fault classification is conservatively left as `"unknown"` in this version.
+
+- **Dataset documentation:**  
+  ➜ [PIP / No-Fault Coverage Dataset](/datasets/state-pip-no-fault-coverage)  
+- **CSV:** [state-pip-no-fault-coverage.csv](/datasets/state-pip-no-fault-coverage.csv)  
+- **JSON:** [state-pip-no-fault-coverage.json](/datasets/state-pip-no-fault-coverage.json)
+
+- **Datasets hub:**  
+  ➜ [ru3.us Datasets Index](/datasets/)
+
+---
+
+## Methodology
+
+Each dataset includes a dedicated methodology page explaining:
+
+- Scope and intent  
+- Field definitions  
+- Data sources  
+- Design choices and limitations  
+- Planned future enhancements
+
+Methodology pages:
+
+- **Liability Minimums:**  
+  ➜ [Methodology for the Minimum Auto Liability Dataset](/methodology/minimum-liability-dataset-methodology)
+
+- **UM/UIM Coverage:**  
+  ➜ [Methodology for the UM/UIM Dataset](/methodology/um-uim-dataset-methodology)
+
+- **PIP / No-Fault Coverage:**  
+  ➜ [Methodology for the PIP / No-Fault Dataset](/methodology/pip-no-fault-dataset-methodology)
 
 ---
 
 ## Featured State Pages
 
-These pages provide additional context for major states:
+These pages provide additional context for selected high-impact states, using the liability dataset and linking into the broader resource set:
 
 - [California Minimum Auto Insurance Requirements](/state/california-minimum-auto-insurance)
 - [Texas Minimum Auto Insurance Requirements](/state/texas-minimum-auto-insurance)
@@ -47,16 +106,23 @@ These pages provide additional context for major states:
 - [New York Minimum Auto Insurance Requirements](/state/new-york-minimum-auto-insurance)
 - [Michigan Minimum Auto Insurance Requirements](/state/michigan-minimum-auto-insurance)
 
-More state-specific pages will be added over time.
+Future iterations may expand these pages to explicitly reference **all three datasets** (liability, UM/UIM, PIP) in a consolidated state-level view.
 
 ---
 
-## About the Project
+## About This Project
 
-ru3.us is an experiment in building a **narrow, high-integrity domain** that:
+ru3.us is designed as a **reference resource**, not a commercial site.
 
-- Publishes state-level insurance data in **structured formats** (CSV, JSON, JSON-LD).
-- Documents its **sources and methodology** transparently.
-- Keeps scope tight: auto insurance requirements in the United States.
+Key principles:
 
-This site does not provide legal or financial advice. Drivers should always confirm requirements with their insurer, agent, or state regulator.
+- **Narrow scope:** U.S. auto insurance requirements only.  
+- **Structured first:** CSV and JSON at the core, human pages on top.  
+- **Transparent methodology:** Clear documentation of what is known, unknown, and how updates will be handled.  
+- **Conservative claims:** When the source text is silent, the datasets use `"unknown"` rather than assuming “not required.”
+
+This site does not provide legal or financial advice. Drivers and practitioners should always confirm requirements with:
+
+- Insurers or agents  
+- State regulators  
+- Applicable statutes or legal counsel
