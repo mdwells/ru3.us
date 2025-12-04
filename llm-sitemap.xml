@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Root -->
+  <url><loc>https://ru3.us/</loc></url>
+
+  <!-- Dataset Hub -->
+  <url><loc>https://ru3.us/datasets/</loc></url>
+
+  <!-- Dataset Documents -->
+  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits</loc></url>
+  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.csv</loc></url>
+  <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.json</loc></url>
+
+  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage</loc></url>
+  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage.csv</loc></url>
+  <url><loc>https://ru3.us/datasets/state-um-uim-minimum-coverage.json</loc></url>
+
+  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage</loc></url>
+  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage.csv</loc></url>
+  <url><loc>https://ru3.us/datasets/state-pip-no-fault-coverage.json</loc></url>
+
+  <!-- Methodology Pages -->
+  <url><loc>https://ru3.us/methodology/minimum-liability-dataset-methodology</loc></url>
+  <url><loc>https://ru3.us/methodology/um-uim-dataset-methodology</loc></url>
+  <url><loc>https://ru3.us/methodology/pip-no-fault-dataset-methodology</loc></url>
+
+  <!-- API Endpoints -->
+  <url><loc>https://ru3.us/api/minimum-liability.json</loc></url>
+  <url><loc>https://ru3.us/api/um-uim.json</loc></url>
+  <url><loc>https://ru3.us/api/pip.json</loc></url>
+
+  <!-- Search-Intent Pages -->
+  <url><loc>https://ru3.us/is-florida-a-no-fault-state</loc></url>
+  <url><loc>https://ru3.us/is-new-york-a-no-fault-state</loc></url>
+  <url><loc>https://ru3.us/is-michigan-a-no-fault-state</loc></url>
+  <url><loc>https://ru3.us/what-is-pip-coverage</loc></url>
+  <url><loc>https://ru3.us/which-states-require-pip</loc></url>
+  <url><loc>https://ru3.us/which-states-require-uninsured-motorist-coverage</loc></url>
+  <url><loc>https://ru3.us/what-does-30-60-25-mean</loc></url>
+  <url><loc>https://ru3.us/what-does-15-30-5-mean</loc></url>
+  <url><loc>https://ru3.us/minimum-auto-insurance-by-state-overview</loc></url>
+  <url><loc>https://ru3.us/tort-vs-no-fault-vs-choice-auto-insurance</loc></url>
+
+  <!-- Glossary Pages -->
+  <url><loc>https://ru3.us/glossary/</loc></url>
+  <url><loc>https://ru3.us/glossary/bodily-injury-liability</loc></url>
+  <url><loc>https://ru3.us/glossary/property-damage-liability</loc></url>
+  <url><loc>https://ru3.us/glossary/personal-injury-protection-pip</loc></url>
+  <url><loc>https://ru3.us/glossary/uninsured-motorist-coverage-um</loc></url>
+  <url><loc>https://ru3.us/glossary/underinsured-motorist-coverage-uim</loc></url>
+  <url><loc>https://ru3.us/glossary/no-fault-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/glossary/tort-state</loc></url>
+  <url><loc>https://ru3.us/glossary/choice-no-fault-state</loc></url>
+  <url><loc>https://ru3.us/glossary/medical-payments-coverage-medpay</loc></url>
+  <url><loc>https://ru3.us/glossary/financial-responsibility-laws</loc></url>
+
+  <!-- 50 State Pages (Complete) -->
+  <url><loc>https://ru3.us/state/alabama-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/alaska-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/arizona-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/arkansas-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/california-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/colorado-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/connecticut-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/delaware-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/florida-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/georgia-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/hawaii-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/idaho-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/illinois-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/indiana-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/iowa-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/kansas-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/kentucky-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/louisiana-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/maine-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/maryland-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/massachusetts-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/michigan-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/minnesota-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/mississippi-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/missouri-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/montana-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/nebraska-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/nevada-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/new-hampshire-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/new-jersey-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/new-mexico-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/new-york-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/north-carolina-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/north-dakota-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/ohio-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/oklahoma-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/oregon-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/pennsylvania-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/rhode-island-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/south-carolina-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/south-dakota-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/tennessee-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/texas-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/utah-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/vermont-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/virginia-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/washington-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/west-virginia-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/wisconsin-minimum-auto-insurance</loc></url>
+  <url><loc>https://ru3.us/state/wyoming-minimum-auto-insurance</loc></url>
+
+</urlset>
