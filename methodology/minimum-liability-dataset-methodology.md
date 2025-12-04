@@ -140,7 +140,7 @@ It is **not legal advice**. Drivers and businesses should always consult their i
 
 ## Related ru3.us Resources
 
-- [Minimum Auto Insurance Requirements by State](/minimum-auto-insurance-requirements-by-state)
-- [Dataset: State Minimum Liability Limits (CSV)](/datasets/state-minimum-coverage-limits.csv)
-- [Dataset: State Minimum Liability Limits (JSON)](/datasets/state-minimum-coverage-limits.json)
-- [Datasets Index](/datasets/)
+- **Overview Page:** [Minimum Auto Insurance Requirements by State (2025 Edition)](/minimum-auto-insurance-requirements-by-state)  
+- **Dataset Documentation:** [Minimum Auto Liability Limits Dataset](/datasets/state-minimum-coverage-limits)  
+- **CSV Data:** [state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
+- **JSON Data:** [state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
