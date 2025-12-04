@@ -51,6 +51,26 @@ The dataset includes:
 
 ---
 
+## 🛡 Uninsured / Underinsured Motorist Coverage Dataset (Version 2025.01)
+
+This dataset captures where the initial 2025 reference explicitly describes **uninsured and underinsured motorist (UM/UIM) coverage requirements** and records those limits as text.
+
+Because the underlying source is incomplete on UM/UIM, many states are conservatively marked as `"unknown"` rather than assumed to have no requirement.
+
+### Access the Dataset
+
+- **Dataset documentation:**  
+  ➜ [UM/UIM Coverage Requirements – Documentation](/datasets/state-um-uim-minimum-coverage)
+
+- **Download the dataset:**  
+  - **CSV:** [state-um-uim-minimum-coverage.csv](/datasets/state-um-uim-minimum-coverage.csv)  
+  - **JSON:** [state-um-uim-minimum-coverage.json](/datasets/state-um-uim-minimum-coverage.json)
+
+- **Methodology:**  
+  ➜ [Methodology for the UM/UIM Dataset](/methodology/um-uim-dataset-methodology)
+
+---
+
 ## 📚 Reference Pages Built from This Dataset
 
 These pages provide narrative explanations and state-specific context using the structured data.
