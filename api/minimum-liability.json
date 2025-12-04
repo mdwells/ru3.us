@@ -1,0 +1,15 @@
+{
+  "description": "API-style endpoint for the ru3.us State Minimum Auto Liability Limits Dataset.",
+  "version": "2025.01",
+  "dataset_url": "/datasets/state-minimum-coverage-limits.json",
+  "schema": {
+    "fields": [
+      "state_code",
+      "state_name",
+      "min_bi_per_person",
+      "min_bi_per_accident",
+      "min_pd_per_accident",
+      "notes"
+    ]
+  }
+}

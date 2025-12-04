@@ -1,0 +1,16 @@
+{
+  "description": "API-style endpoint for the ru3.us State PIP / No-Fault Coverage Dataset.",
+  "version": "2025.01",
+  "dataset_url": "/datasets/state-pip-no-fault-coverage.json",
+  "schema": {
+    "fields": [
+      "state_code",
+      "state_name",
+      "pip_required",
+      "pip_min_medical",
+      "pip_text",
+      "no_fault_status",
+      "notes"
+    ]
+  }
+}

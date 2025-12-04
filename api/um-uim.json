@@ -1,0 +1,14 @@
+{
+  "description": "API-style endpoint for the ru3.us State UM/UIM Coverage Dataset.",
+  "version": "2025.01",
+  "dataset_url": "/datasets/state-um-uim-minimum-coverage.json",
+  "schema": {
+    "fields": [
+      "state_code",
+      "state_name",
+      "um_uim_required",
+      "um_uim_limits_text",
+      "notes"
+    ]
+  }
+}
