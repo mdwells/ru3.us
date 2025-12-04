@@ -74,6 +74,10 @@ This dataset is provided as:
 - **CSV:** [state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
 - **JSON:** [state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
 
+- For a human-readable national comparison view of this dataset, see:  
+→ [/minimum-auto-insurance-by-state-table](/minimum-auto-insurance-by-state-table)
+
+
 
 <script type="application/ld+json">
 {
