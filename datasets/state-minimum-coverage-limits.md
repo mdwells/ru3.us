@@ -11,6 +11,37 @@ description: >
 
 # State Minimum Auto Liability Coverage Limits
 
+## Dataset Version
+**Version:** 2025.01  
+**Last Updated:** 2025-01-XX  
+**Maintainer:** ru3.us Data Project  
+
+This dataset contains the legally mandated minimum auto liability coverage limits for all U.S. states and the District of Columbia. Values represent the minimum required **bodily injury liability per person**, **bodily injury liability per accident**, and **property damage liability per accident**.
+
+---
+
+## Source Information
+The values in this dataset were **manually extracted from a consolidated state-by-state requirements document** provided during project setup.  
+Where possible, individual entries were cross-checked against state insurance department, DMV, or legislative sources.  
+Additional validation steps are ongoing and will be reflected in future dataset versions.
+
+---
+
+## Methodology
+To construct this dataset:
+
+1. The source text was parsed to identify each state's statutory minimum liability requirements.
+2. Only three fields were extracted:
+   - **Bodily Injury Liability per Person (BI/person)**
+   - **Bodily Injury Liability per Accident (BI/accident)**
+   - **Property Damage Liability per Accident (PD/accident)**
+3. Other mandatory coverages (PIP, UM/UIM, MedPay, special provisions) were **not included** in the structured dataset to preserve clarity and consistency.
+4. For no-fault or BI-optional states (e.g., Florida, New Jersey, New Hampshire), BI values are recorded as `0` where no statutory minimum exists, and explanatory notes are added.
+5. The dataset is kept in **CSV** and **JSON** formats for machine readability and LLM ingestion.  
+6. Any jurisdiction that recently revised minimums (e.g., California, North Carolina) is reflected with its updated limits.
+
+A detailed cross-state verification audit (comparing state statutes, DOI/DMV publications, and insurer regulatory filings) is planned for Dataset Version 2025.02.
+
 **Minimum required auto liability coverage limits by U.S. state.**
 
 This dataset is provided as:
