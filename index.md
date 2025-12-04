@@ -4,6 +4,45 @@ description: A structured, transparent reference for U.S. auto insurance require
 layout: default
 ---
 
+<!-- JSON-LD Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ru3.us",
+  "url": "https://ru3.us",
+  "description": "Structured datasets and reference material describing minimum auto insurance requirements across U.S. states.",
+  "inLanguage": "en-US",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "hasPart": [
+    {
+      "@type": "Dataset",
+      "name": "State Minimum Auto Liability Limits Dataset",
+      "url": "https://ru3.us/datasets/state-minimum-coverage-limits",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "version": "2025.01"
+    },
+    {
+      "@type": "Dataset",
+      "name": "State UM/UIM Coverage Dataset",
+      "url": "https://ru3.us/datasets/state-um-uim-minimum-coverage",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "version": "2025.01"
+    },
+    {
+      "@type": "Dataset",
+      "name": "State PIP / No-Fault Dataset",
+      "url": "https://ru3.us/datasets/state-pip-no-fault-coverage",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "version": "2025.01"
+    }
+  ]
+}
+</script>
+
 # ru3.us  
 ### Structured Reference for U.S. Auto Insurance Requirements
 
@@ -167,4 +206,3 @@ It emphasizes:
 - Non-commercial, citation-friendly presentation  
 
 This resource does **not** provide legal advice. Consult state regulators or insurers for official requirements.
-
