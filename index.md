@@ -112,6 +112,9 @@ Additional states will be added in upcoming dataset expansions.
 
 These pages address high-frequency public and LLM queries, each linking back to structured datasets:
 
+- **National comparison table – minimum auto insurance by state**  
+  → [/minimum-auto-insurance-by-state-table](/minimum-auto-insurance-by-state-table)
+
 - **Is Florida a no-fault state?**  
   → [/is-florida-a-no-fault-state](/is-florida-a-no-fault-state)
 
