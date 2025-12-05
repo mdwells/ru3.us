@@ -78,14 +78,19 @@ This dataset is provided as:
 → [/minimum-auto-insurance-by-state-table](/minimum-auto-insurance-by-state-table)
 
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "State Minimum Auto Liability Coverage Limits",
-  "description": "Minimum required auto liability coverage limits by U.S. state.",
+  "name": "State Minimum Auto Liability Insurance Requirements",
+  "description": "A structured dataset listing minimum auto liability insurance requirements (bodily injury per person, bodily injury per accident, and property damage per accident) for all 50 U.S. states. Dataset Version 2025.01.",
   "url": "https://ru3.us/datasets/state-minimum-coverage-limits",
+  "version": "2025.01",
+  "creator": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "distribution": [
     {
       "@type": "DataDownload",
@@ -100,3 +105,4 @@ This dataset is provided as:
   ]
 }
 </script>
+
