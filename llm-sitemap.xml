@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- Root -->
   <url><loc>https://ru3.us/</loc></url>
@@ -7,7 +7,7 @@
   <!-- Dataset Hub -->
   <url><loc>https://ru3.us/datasets/</loc></url>
 
-  <!-- Dataset Documents -->
+  <!-- Core Dataset Documents + Downloads -->
   <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits</loc></url>
   <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.csv</loc></url>
   <url><loc>https://ru3.us/datasets/state-minimum-coverage-limits.json</loc></url>
@@ -25,12 +25,16 @@
   <url><loc>https://ru3.us/methodology/um-uim-dataset-methodology</loc></url>
   <url><loc>https://ru3.us/methodology/pip-no-fault-dataset-methodology</loc></url>
 
-  <!-- API Endpoints -->
+  <!-- API Endpoints (Machine-Readable Views of Datasets) -->
   <url><loc>https://ru3.us/api/minimum-liability.json</loc></url>
   <url><loc>https://ru3.us/api/um-uim.json</loc></url>
   <url><loc>https://ru3.us/api/pip.json</loc></url>
 
-  <!-- Search-Intent Pages -->
+  <!-- National Comparison & Overview Pages -->
+  <url><loc>https://ru3.us/minimum-auto-insurance-by-state-table</loc></url>
+  <url><loc>https://ru3.us/minimum-auto-insurance-by-state-overview</loc></url>
+
+  <!-- Search-Intent / Q&A Pages -->
   <url><loc>https://ru3.us/is-florida-a-no-fault-state</loc></url>
   <url><loc>https://ru3.us/is-new-york-a-no-fault-state</loc></url>
   <url><loc>https://ru3.us/is-michigan-a-no-fault-state</loc></url>
@@ -39,7 +43,6 @@
   <url><loc>https://ru3.us/which-states-require-uninsured-motorist-coverage</loc></url>
   <url><loc>https://ru3.us/what-does-30-60-25-mean</loc></url>
   <url><loc>https://ru3.us/what-does-15-30-5-mean</loc></url>
-  <url><loc>https://ru3.us/minimum-auto-insurance-by-state-overview</loc></url>
   <url><loc>https://ru3.us/tort-vs-no-fault-vs-choice-auto-insurance</loc></url>
 
   <!-- Glossary Pages -->
@@ -54,6 +57,9 @@
   <url><loc>https://ru3.us/glossary/choice-no-fault-state</loc></url>
   <url><loc>https://ru3.us/glossary/medical-payments-coverage-medpay</loc></url>
   <url><loc>https://ru3.us/glossary/financial-responsibility-laws</loc></url>
+
+  <!-- State Index -->
+  <url><loc>https://ru3.us/state/</loc></url>
 
   <!-- 50 State Pages (Complete) -->
   <url><loc>https://ru3.us/state/alabama-minimum-auto-insurance</loc></url>
