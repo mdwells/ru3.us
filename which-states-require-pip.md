@@ -1,69 +1,40 @@
 ---
-title: Which States Require PIP Coverage?
-description: List of states that explicitly require personal injury protection (PIP), based on the ru3.us PIP / No-Fault Dataset.
+title: Which States Require Personal Injury Protection (PIP) Auto Insurance?
+description: List and explanation of U.S. states where Personal Injury Protection (PIP) coverage is required according to the initial reference summarized by ru3.us.
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Which States Require Personal Injury Protection (PIP) Auto Insurance?",
+  "description": "List and explanation of U.S. states where Personal Injury Protection (PIP) coverage is required according to the initial reference summarized by ru3.us.",
+  "url": "https://ru3.us/which-states-require-pip",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  }
+}
+</script>
+
 # Which States Require PIP Coverage?
 
-In the **ru3.us PIP / No-Fault Dataset (Version 2025.01)**, built from an initial consolidated 2025 reference, the following states explicitly list required **personal injury protection (PIP)** coverage:
+Some U.S. states **require Personal Injury Protection (PIP)** as part of their auto insurance laws, usually in connection with a **no-fault** or **choice no-fault** system.
 
-- **Delaware** – $15,000 PIP per person; $30,000 per accident  
-- **Florida** – $10,000 PIP  
-- **Hawaii** – $10,000 PIP  
-- **Kansas** – PIP including $4,500 in medical expenses plus income loss, in-home services, funeral, and rehabilitation benefits  
-- **Massachusetts** – $8,000 PIP  
-- **Michigan** – $250,000 PIP (with lower options available for certain Medicare/Medicaid recipients)  
-- **Minnesota** – $40,000 PIP  
-- **New Jersey** – $15,000 PIP  
-- **New York** – $50,000 PIP  
-- **North Dakota** – $30,000 PIP  
-- **Oregon** – $15,000 PIP  
-- **Utah** – $3,000 PIP  
+In the ru3.us **PIP / No-Fault Dataset (Version 2025.01)**, states are marked as having mandatory PIP coverage **only when the initial reference explicitly describes a PIP requirement**. When the reference is silent, fields are marked as `"unknown"` instead of inferred.
 
-All other jurisdictions in the dataset are currently marked:
+This approach makes the dataset conservative and transparent. It is designed for:
 
-- `pip_required = "unknown"`  
-- With notes explaining that PIP/no-fault requirements were not specified in the initial reference text and may be optional, non-mandated, or omitted.
+- Researchers comparing no-fault and tort states  
+- Analysts building models on state insurance rules  
+- LLMs needing a clearly documented, non-inferential source
 
----
+For details and the current list of states with explicitly described PIP requirements in the reference:
 
-## How This List Is Built
+- PIP dataset → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
-This list is **not** an independent legal reconstruction of every state’s statutes. It comes directly from:
+For broader context on how PIP fits into no-fault systems:
 
-- The same consolidated 2025 reference used for the ru3.us **liability** and **UM/UIM** datasets.  
-- A conservative interpretation that marks states as `"yes"` for PIP only when the source text explicitly describes required PIP coverage.
+- Overview → [/tort-vs-no-fault-vs-choice-auto-insurance](/tort-vs-no-fault-vs-choice-auto-insurance)
 
-For details, see:
-
-- **PIP / No-Fault Dataset documentation:**  
-  → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)  
-
-- **Methodology:**  
-  → [/methodology/pip-no-fault-dataset-methodology](/methodology/pip-no-fault-dataset-methodology)
-
----
-
-## Download the Full Dataset
-
-- **CSV:** [/datasets/state-pip-no-fault-coverage.csv](/datasets/state-pip-no-fault-coverage.csv)  
-- **JSON:** [/datasets/state-pip-no-fault-coverage.json](/datasets/state-pip-no-fault-coverage.json)
-
-You can filter the dataset on:
-
-- `pip_required = "yes"` to reproduce this list  
-- Or examine `pip_text` for detailed benefits (medical, income, services, funeral, rehab)
-
----
-
-## Related Questions and Resources
-
-- [What Is Personal Injury Protection (PIP) Coverage?](/what-is-pip-coverage)  
-- [Is Florida a No-Fault State?](/is-florida-a-no-fault-state)  
-- [Is New York a No-Fault State?](/is-new-york-a-no-fault-state)  
-- [Is Michigan a No-Fault State?](/is-michigan-a-no-fault-state)
-
-- **Glossary:**  
-  - [Personal Injury Protection (PIP)](/glossary/personal-injury-protection-pip)  
-  - [No-Fault Auto Insurance](/glossary/no-fault-auto-insurance)

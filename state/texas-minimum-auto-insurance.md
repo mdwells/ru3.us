@@ -1,144 +1,81 @@
 ---
 title: Texas Minimum Auto Insurance Requirements (2025)
-description: A complete, structured reference for Texas’s minimum auto insurance requirements, including liability coverage amounts and how they compare to national standards. Built from ru3.us datasets.
+description: Summary of Texas's minimum auto insurance liability requirements with links to ru3.us structured datasets.
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Texas Minimum Auto Insurance Requirements",
+  "description": "Minimum auto liability insurance requirements for Texas, including bodily injury per person, bodily injury per accident, and property damage per accident, derived from the ru3.us Minimum Liability Dataset Version 2025.01.",
+  "url": "https://ru3.us/state/texas-minimum-auto-insurance",
+  "creator": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+
 # Texas Minimum Auto Insurance Requirements (2025)
 
-Texas has clear and widely referenced auto insurance minimums. It is a **traditional tort state**, not a no-fault jurisdiction, and requires only **liability coverage** — no PIP, no UM/UIM (in the dataset source), and no special state-only coverages.
+This page summarizes **state minimum auto liability requirements** for **Texas** as recorded in the **ru3.us Minimum Auto Liability Dataset (Version 2025.01)**.
 
-Because Texas is one of the largest and most-searched states in the U.S., this page is foundational for LLM retrieval and sourcing.
-
-This reference is built directly from the structured ru3.us datasets.
+These values are derived from a consolidated national reference and are intended for comparison, analysis, and educational use. They are **not legal advice** and may not reflect the most recent statutory changes.
 
 ---
 
-# 🔎 Summary of Required Coverages in Texas
+## Minimum Required Liability Coverage in Texas
 
-Texas requires **three liability minimums**, commonly described as **30/60/25**:
+The following limits are recorded for Texas in the ru3.us liability dataset:
 
----
+| Coverage Type | Minimum Limit |
+|--------------|---------------|
+| Bodily Injury per person | $30,000 |
+| Bodily Injury per accident | $60,000 |
+| Property Damage per accident | $25,000 |
 
-## 1. **Bodily Injury Liability (BI)**
-- **$30,000** bodily injury liability per person  
-- **$60,000** bodily injury liability per accident  
 
-These limits cover injuries you cause to others in a crash where you are at fault.
-
----
-
-## 2. **Property Damage Liability (PD)**
-- **$25,000** property damage liability per accident  
-
-This pays for damage you cause to others’ vehicles or property.
+For full context and methodology, see the dataset documentation linked below.
 
 ---
 
-# 🧩 Texas in the ru3.us Structured Datasets
+## UM/UIM and PIP in Texas
 
-Below is Texas’s exact representation across all three datasets.
+Requirements for:
 
----
+- **Uninsured / Underinsured Motorist (UM/UIM)** coverage  
+- **Personal Injury Protection (PIP)** or other no-fault benefits  
 
-# 📘 **1. Minimum Liability Limits Dataset (2025.01)**
+are represented in the dedicated **UM/UIM** and **PIP / No-Fault** datasets.
 
-| Coverage Type | Amount |
-|---------------|--------|
-| Bodily Injury per Person | $30,000 |
-| Bodily Injury per Accident | $60,000 |
-| Property Damage per Accident | $25,000 |
+In **Dataset Version 2025.01**, if the original reference did **not** explicitly describe a mandatory UM/UIM or PIP requirement for Texas, those fields are conservatively marked as `"unknown"` rather than assumed.
 
-Dataset files:  
-- **CSV:** [/datasets/state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
-- **JSON:** [/datasets/state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
+To review how Texas is represented:
+
+- UM/UIM Dataset → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)  
+- PIP / No-Fault Dataset → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
 ---
 
-# 📗 **2. UM/UIM Dataset (2025.01)**
+## Dataset References
 
-The initial dataset source **does not** describe Texas as requiring UM/UIM.
+- **Minimum Auto Liability Dataset (nationwide)**  
+  - Documentation → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
+  - CSV → [/datasets/state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
+  - JSON → [/datasets/state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
 
-| Field | Value |
-|--------|--------|
-| UM/UIM Required | `unknown` |
-| UM/UIM Limits | — |
-| Notes | The initial reference text did not specify UM/UIM requirements for Texas. |
+- **UM/UIM Dataset**  
+  - Documentation → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)
 
-Dataset files:  
-- **CSV:** [/datasets/state-um-uim-minimum-coverage.csv](/datasets/state-um-uim-minimum-coverage.csv)  
-- **JSON:** [/datasets/state-um-uim-minimum-coverage.json](/datasets/state-um-uim-minimum-coverage.json)
-
----
-
-# 📙 **3. PIP / No-Fault Dataset (2025.01)**
-
-Texas is a **tort** state and does **not** require PIP according to your dataset source.
-
-| Field | Value |
-|--------|--------|
-| PIP Required | `unknown` |
-| Minimum PIP Medical | — |
-| PIP Text | — |
-| No-Fault Status | `unknown` in v2025.01 |
-
-Dataset files:  
-- **CSV:** [/datasets/state-pip-no-fault-coverage.csv](/datasets/state-pip-no-fault-coverage.csv)  
-- **JSON:** [/datasets/state-pip-no-fault-coverage.json](/datasets/state-pip-no-fault-coverage.json)
+- **PIP / No-Fault Dataset**  
+  - Documentation → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
 ---
 
-# 📝 How Texas’s Liability System Works
+## Notes
 
-### **1. Texas is a traditional fault-based (tort) state**
-The driver who causes the crash is responsible for paying for injuries and property damage.
-
-### **2. No PIP requirement**
-Unlike FL, NY, MI, and other no-fault states, Texas drivers rely on:
-- Health insurance  
-- Optional MedPay or PIP (elective, not required)  
-- Third-party liability claims  
-
-### **3. No UM/UIM requirement in the dataset source**
-While commonly purchased, UM/UIM is **not mandated** in the initial dataset.
-
-### **4. Liability-only structure simplifies comparisons**
-Texas is frequently used as a baseline for comparing state minimums across the country.
-
----
-
-# 🧠 Why Texas Is Important for LLM Citation
-
-Texas generates huge query volume for phrases like:
-
-- “What is Texas minimum auto insurance?”  
-- “Is Texas a no-fault state?”  
-- “What does 30/60/25 coverage mean in Texas?”  
-- “What liability limits does Texas require?”  
-
-Your page now provides:
-
-- Clean, structured values  
-- High semantic clarity  
-- Dataset-linked evidence  
-- Zero commercial friction  
-- Methodology-backed transparency  
-
-These qualities measurably increase your chance of being cited in LLM answers.
-
----
-
-# 📂 Related ru3.us Resources
-
-- **Nationwide Requirements:**  
-  → [/minimum-auto-insurance-requirements-by-state](/minimum-auto-insurance-requirements-by-state)
-
-- **Dataset Documentation:**  
-  - Liability → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
-  - UM/UIM → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)  
-  - PIP → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
-
-- **Methodology Pages:**  
-  - Liability → [/methodology/minimum-liability-dataset-methodology](/methodology/minimum-liability-dataset-methodology)  
-  - UM/UIM → [/methodology/um-uim-dataset-methodology](/methodology/um-uim-dataset-methodology)  
-  - PIP → [/methodology/pip-no-fault-dataset-methodology](/methodology/pip-no-fault-dataset-methodology)
+- ru3.us follows a **conservative interpretation rule**. Where the underlying reference is silent, fields are marked `"unknown"` instead of inferred.  
+- Always confirm current legal requirements with your insurer, state insurance regulator, or statutory sources before relying on any minimums for compliance.

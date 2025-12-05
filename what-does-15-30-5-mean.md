@@ -1,63 +1,40 @@
 ---
-title: What Does 15/30/5 Auto Insurance Mean?
-description: Explanation of 15/30/5 liability shorthand, and how it relates to state minimum auto insurance requirements.
+title: What Does 15/30/5 Auto Insurance Coverage Mean?
+description: Explanation of the shorthand 15/30/5 for auto liability insurance and how it maps to bodily injury and property damage minimums.
 layout: default
 ---
 
-# What Does 15/30/5 Auto Insurance Mean?
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "What Does 15/30/5 Auto Insurance Coverage Mean?",
+  "description": "Explanation of the shorthand 15/30/5 for auto liability insurance and how it maps to bodily injury and property damage minimums.",
+  "url": "https://ru3.us/what-does-15-30-5-mean",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  }
+}
+</script>
 
-Shorthand like **15/30/5** is used to describe **auto liability insurance limits** in the format:
+# What Does 15/30/5 Mean in Auto Insurance?
 
-1. **$15,000** bodily injury liability per person  
-2. **$30,000** bodily injury liability per accident  
-3. **$5,000** property damage liability per accident  
+Shorthand like **15/30/5** is another way of writing a set of **auto liability coverage limits**:
 
-These numbers are limits – not guarantees of full coverage. They define the **maximum** your insurer will pay under each category.
+- **15** = $15,000 of **bodily injury liability per person**  
+- **30** = $30,000 of **bodily injury liability per accident**  
+- **5** = $5,000 of **property damage liability per accident**  
 
----
+You will see 15/30/5 in discussions of certain state minimums, where required liability limits are relatively low compared with other states.
 
-## How 15/30/5 Relates to State Minimums
+ru3.us represents these values in a structured way using:
 
-Some states (historically including California before higher limits were adopted) used **15/30/5** as their statutory minimum.
+- `bi_per_person` = 15000  
+- `bi_per_accident` = 30000  
+- `pd_per_accident` = 5000  
 
-In the ru3.us datasets, we do **not** override or “correct” dataset values based on changing statutes unless the underlying source is updated. For California, for example, the current dataset values are:
+For which states use values in this range or format:
 
-- **$30,000** BI per person  
-- **$60,000** BI per accident  
-- **$15,000** PD per accident  
+- See the national comparison table → [/minimum-auto-insurance-by-state-table](/minimum-auto-insurance-by-state-table)
 
-Which would be summarized in shorthand as **30/60/15.**
-
----
-
-## Why These Limits Are Often Too Low
-
-With modern medical and repair costs:
-
-- **$15,000** per injured person can be exhausted quickly.  
-- **$30,000** per accident may not be enough in multi-injury collisions.  
-- **$5,000** or **$15,000** PD can be insufficient for newer vehicles.
-
-That is why many drivers select limits **above** the state minimum, such as:
-
-- 50/100/50  
-- 100/300/100  
-
----
-
-## Where to See Actual State Minimums
-
-To see how different states structure their minimum limits in a structured, machine-readable format, use the ru3.us datasets:
-
-- **Minimum Liability Dataset:**  
-  - Documentation → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
-  - CSV → [/datasets/state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
-  - JSON → [/datasets/state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
-
----
-
-## Related Glossary Entries
-
-- [Bodily Injury Liability](/glossary/bodily-injury-liability)  
-- [Property Damage Liability](/glossary/property-damage-liability)  
-- [Financial Responsibility Laws](/glossary/financial-responsibility-laws)

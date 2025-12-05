@@ -1,82 +1,42 @@
 ---
-title: Is Florida a No-Fault State?
-description: Clear explanation of Florida’s no-fault auto insurance system, including PIP, liability, and how Florida differs from tort states.
+title: Is Florida a No-Fault State for Auto Insurance?
+description: Explanation of Florida's no-fault auto insurance system, PIP requirements, and how it affects claims and lawsuits.
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Is Florida a No-Fault State for Auto Insurance?",
+  "description": "Explanation of Florida's no-fault auto insurance system, PIP requirements, and how it affects claims and lawsuits.",
+  "url": "https://ru3.us/is-florida-a-no-fault-state",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  }
+}
+</script>
+
 # Is Florida a No-Fault State?
 
-Yes. **Florida is a no-fault auto insurance state.**
+Florida is considered a **no-fault auto insurance state**. That means, for most minor accidents, drivers first use their own **Personal Injury Protection (PIP)** coverage for medical expenses, regardless of who caused the crash.
 
-That means if you are injured in a crash in Florida, you generally start by making a claim under **your own personal injury protection (PIP)** coverage, **regardless of who caused the accident**.
+Under the initial reference summarized in the ru3.us PIP dataset:
 
-This page explains:
+- Florida requires **PIP coverage**, typically with a minimum of **$10,000** in medical benefits.  
+- Florida also requires **property damage liability (PD)** coverage of **$10,000 per accident**.  
+- Bodily injury liability minimums are not clearly specified in the same reference and are treated as **not specified** in the ru3.us liability dataset.
 
-- What “no-fault” means in Florida  
-- What coverages Florida requires  
-- How Florida appears in the ru3.us structured datasets  
-- Where to download the underlying data
+The no-fault system does **not** mean fault is irrelevant. It primarily affects:
 
----
+- How medical claims are paid  
+- When and how you can sue the at-fault driver for injuries  
 
-## What No-Fault Means in Florida
+Serious injuries can pierce the no-fault threshold, allowing bodily injury claims or lawsuits. Exact thresholds and rights are defined in Florida statutes and case law.
 
-In Florida’s no-fault framework:
+For structured data about Florida's minimum liability and PIP requirements, see:
 
-- Each driver is required to carry **PIP**.
-- After a crash, **your own PIP** pays medical expenses and related costs (up to your policy limit), regardless of fault.
-- Lawsuits against the at-fault driver for injuries are limited to certain situations (for example, when injuries meet a statutory threshold).
+- Liability dataset → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
+- PIP dataset → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
-Florida still uses a **fault-based system for property damage** – liability coverage for damage to other people’s vehicles or property.
-
----
-
-## Florida’s Required Coverages
-
-From the ru3.us datasets:
-
-- **Personal Injury Protection (PIP):**  
-  - Minimum: **$10,000** PIP  
-  - Recorded in the **PIP / No-Fault Dataset (Version 2025.01)** as:  
-    > "$10,000 personal injury protection."
-
-- **Property Damage Liability (PD):**  
-  - Minimum: **$10,000** property damage liability per accident  
-  - Recorded in the **Minimum Liability Dataset (Version 2025.01)**.
-
-Florida does **not** require bodily injury liability for most drivers in the underlying dataset version, which makes it structurally different from many other states.
-
----
-
-## How Florida Appears in the ru3.us Datasets
-
-- **Liability Minimums Dataset:**  
-  - BI Per Person: not required in source dataset  
-  - BI Per Accident: not required in source dataset  
-  - PD Per Accident: **$10,000**  
-
-- **UM/UIM Dataset:**  
-  - `um_uim_required`: `"unknown"` (the initial reference did not specify a mandate for UM/UIM in Florida)
-
-- **PIP / No-Fault Dataset:**  
-  - `pip_required`: `"yes"`  
-  - `pip_min_medical`: `10000`  
-  - `pip_text`: "$10,000 personal injury protection."
-
----
-
-## Where to Learn More
-
-- **Florida minimum auto insurance requirements – full state page:**  
-  → [/state/florida-minimum-auto-insurance](/state/florida-minimum-auto-insurance)
-
-- **Datasets:**  
-  - Liability minimums → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
-  - UM/UIM → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)  
-  - PIP / no-fault → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
-
-- **Glossary:**  
-  - [No-Fault Auto Insurance](/glossary/no-fault-auto-insurance)  
-  - [Personal Injury Protection (PIP)](/glossary/personal-injury-protection-pip)  
-  - [Bodily Injury Liability](/glossary/bodily-injury-liability)  
-  - [Property Damage Liability](/glossary/property-damage-liability)

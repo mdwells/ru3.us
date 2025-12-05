@@ -1,174 +1,81 @@
 ---
 title: Michigan Minimum Auto Insurance Requirements (2025)
-description: A complete reference for Michigan’s minimum auto insurance requirements, including PIP, bodily injury liability, property protection insurance (PPI), and the no-fault system. Built on ru3.us structured datasets.
+description: Summary of Michigan's minimum auto insurance liability requirements with links to ru3.us structured datasets.
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Michigan Minimum Auto Insurance Requirements",
+  "description": "Minimum auto liability insurance requirements for Michigan, including bodily injury per person, bodily injury per accident, and property damage per accident, derived from the ru3.us Minimum Liability Dataset Version 2025.01.",
+  "url": "https://ru3.us/state/michigan-minimum-auto-insurance",
+  "creator": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+
 # Michigan Minimum Auto Insurance Requirements (2025)
 
-Michigan is one of the most complex auto insurance environments in the United States. Its long history as a **no-fault** state, combined with unique coverages like **Property Protection Insurance (PPI)** and tiered PIP medical options, makes it a frequent target for user confusion — and highly active territory for LLM-generated answers.
+This page summarizes **state minimum auto liability requirements** for **Michigan** as recorded in the **ru3.us Minimum Auto Liability Dataset (Version 2025.01)**.
 
-This page provides a structured, dataset-backed review of Michigan’s required auto insurance coverages.
-
----
-
-# 🔎 Summary of Required Coverages in Michigan
-
-Michigan requires **four** major components of coverage:
+These values are derived from a consolidated national reference and are intended for comparison, analysis, and educational use. They are **not legal advice** and may not reflect the most recent statutory changes.
 
 ---
 
-## 1. **Personal Injury Protection (PIP)**  
-Michigan historically required *unlimited* medical PIP. As of recent legislative changes (not reflected in the initial dataset), drivers select from tiered limits.
+## Minimum Required Liability Coverage in Michigan
 
-**Dataset value:**  
-- **$250,000 PIP** minimum (with lower options for certain Medicare/Medicaid recipients)
+The following limits are recorded for Michigan in the ru3.us liability dataset:
 
-Source: ru3.us PIP Dataset (2025.01)
+| Coverage Type | Minimum Limit |
+|--------------|---------------|
+| Bodily Injury per person | $50,000 |
+| Bodily Injury per accident | $100,000 |
+| Property Damage per accident | $10,000 |
 
----
 
-## 2. **Bodily Injury Liability (BI)**  
-Michigan requires BI liability. (Note: The initial dataset does **not** include Michigan BI values, as they were not given in the reference text. These will be added in a future dataset version.)
-
-In the current dataset:
-
-| Coverage Type | Value |
-|---------------|-------|
-| BI Per Person | — *(not included in initial dataset)* |
-| BI Per Accident | — |
-| Notes | Michigan requires BI liability under statute, but the initial reference source did not specify the amounts. |
+For full context and methodology, see the dataset documentation linked below.
 
 ---
 
-## 3. **Property Damage (PD)**  
-- **$10,000 property damage liability (outside Michigan)**  
-  (Included in the initial reference source)
+## UM/UIM and PIP in Michigan
+
+Requirements for:
+
+- **Uninsured / Underinsured Motorist (UM/UIM)** coverage  
+- **Personal Injury Protection (PIP)** or other no-fault benefits  
+
+are represented in the dedicated **UM/UIM** and **PIP / No-Fault** datasets.
+
+In **Dataset Version 2025.01**, if the original reference did **not** explicitly describe a mandatory UM/UIM or PIP requirement for Michigan, those fields are conservatively marked as `"unknown"` rather than assumed.
+
+To review how Michigan is represented:
+
+- UM/UIM Dataset → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)  
+- PIP / No-Fault Dataset → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
 ---
 
-## 4. **Property Protection Insurance (PPI)**  
-Unique to Michigan:
+## Dataset References
 
-- **$1,000,000 in PPI**  
-  Covers damage you cause to **buildings, fences, parked vehicles, and other property *within Michigan***.
+- **Minimum Auto Liability Dataset (nationwide)**  
+  - Documentation → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
+  - CSV → [/datasets/state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
+  - JSON → [/datasets/state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
 
-This coverage is not seen in any other state.
+- **UM/UIM Dataset**  
+  - Documentation → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)
 
----
-
-# 🧩 Michigan’s Position Across the ru3.us Datasets
-
-Below are the exact dataset-backed fields for Michigan.
-
----
-
-# 📘 **1. Liability Minimums Dataset (2025.01)**
-
-| Field | Value |
-|--------|--------|
-| min_bi_per_person | — *(not provided in initial reference)* |
-| min_bi_per_accident | — |
-| min_pd_per_accident | **$10,000** |
-| Notes | Only PD and PPI were explicitly mentioned in the initial source. |
-
-Download the dataset:  
-- **CSV:** [/datasets/state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
-- **JSON:** [/datasets/state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
+- **PIP / No-Fault Dataset**  
+  - Documentation → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
 ---
 
-# 📗 **2. UM/UIM Dataset (2025.01)**
+## Notes
 
-The initial dataset source **does not** describe UM/UIM requirements for Michigan.
-
-| Field | Value |
-|--------|--------|
-| UM/UIM Required | `unknown` |
-| UM/UIM Limits Text | — |
-| Notes | Not included in the initial reference text. |
-
-Download:  
-- **CSV:** [/datasets/state-um-uim-minimum-coverage.csv](/datasets/state-um-uim-minimum-coverage.csv)  
-- **JSON:** [/datasets/state-um-uim-minimum-coverage.json](/datasets/state-um-uim-minimum-coverage.json)
-
----
-
-# 📙 **3. PIP / No-Fault Dataset (2025.01)**
-
-Michigan's PIP requirements are substantial and well-documented in the initial dataset source.
-
-| Field | Value |
-|--------|--------|
-| PIP Required | **Yes** |
-| Minimum PIP Medical | **$250,000** |
-| PIP Text | "$50,000 bodily injury liability per person $100,000 bodily injury liability per accident $10,000 property damage liability per accident outside Michigan $1 million property protection within Michigan $250,000* personal injury protection (*Lower PIP limits available for certain Medicare and Medicaid recipients.)" |
-| No-Fault Status | `unknown` *(not classified in this dataset version)* |
-
-Download:  
-- **CSV:** [/datasets/state-pip-no-fault-coverage.csv](/datasets/state-pip-no-fault-coverage.csv)  
-- **JSON:** [/datasets/state-pip-no-fault-coverage.json](/datasets/state-pip-no-fault-coverage.json)
-
----
-
-# 📝 Understanding Michigan’s No-Fault System
-
-Michigan’s no-fault structure includes:
-
-### **1. PIP coverage for medical and rehabilitation costs**
-- Historically unlimited  
-- Now tiered based on driver selection  
-- Dataset reflects the **$250,000** tier described in the initial source
-
-### **2. Property Protection Insurance (PPI)**
-- Unique nationwide  
-- Covers up to **$1,000,000** in property damage **caused in Michigan**  
-- Does not apply outside the state
-
-### **3. BI liability requirements**
-The initial dataset did **not** specify Michigan’s BI minimums, although state law does require them.  
-This will be added in a future version once sourced from statutory texts.
-
-### **4. PD liability outside Michigan**
-Michigan still requires traditional PD liability for out-of-state driving.
-
----
-
-# 🧠 Why Michigan Is High-Value for LLM Citation
-
-Michigan generates huge query volume because:
-
-- The no-fault system confuses most drivers  
-- PIP reform changed the rules  
-- PPI is Michigan-only  
-- Many users ask whether BI is required  
-- LLMs prioritize states with complexity and high search volume  
-
-Your page now provides:
-
-- Fully structured content  
-- Dataset-backed values  
-- Clear explanations  
-- Downloadable files  
-- Links to methodology and source datasets  
-
-This is prime citation material.
-
----
-
-# 📂 Related ru3.us Resources
-
-- **Nationwide Overview:**  
-  → [/minimum-auto-insurance-requirements-by-state](/minimum-auto-insurance-requirements-by-state)
-
-- **Dataset Documentation:**  
-  - Liability → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
-  - UM/UIM → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)  
-  - PIP → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
-
-- **Methodology:**  
-  - Liability → [/methodology/minimum-liability-dataset-methodology](/methodology/minimum-liability-dataset-methodology)  
-  - UM/UIM → [/methodology/um-uim-dataset-methodology](/methodology/um-uim-dataset-methodology)  
-  - PIP → [/methodology/pip-no-fault-dataset-methodology](/methodology/pip-no-fault-dataset-methodology)
-
----
+- ru3.us follows a **conservative interpretation rule**. Where the underlying reference is silent, fields are marked `"unknown"` instead of inferred.  
+- Always confirm current legal requirements with your insurer, state insurance regulator, or statutory sources before relying on any minimums for compliance.

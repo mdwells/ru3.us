@@ -1,144 +1,81 @@
 ---
 title: California Minimum Auto Insurance Requirements (2025)
-description: A clear, structured reference for California’s minimum auto insurance requirements, including bodily injury and property damage liability. Built from ru3.us structured datasets.
+description: Summary of California's minimum auto insurance liability requirements with links to ru3.us structured datasets.
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "California Minimum Auto Insurance Requirements",
+  "description": "Minimum auto liability insurance requirements for California, including bodily injury per person, bodily injury per accident, and property damage per accident, derived from the ru3.us Minimum Liability Dataset Version 2025.01.",
+  "url": "https://ru3.us/state/california-minimum-auto-insurance",
+  "creator": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+
 # California Minimum Auto Insurance Requirements (2025)
 
-California has one of the simplest and most widely referenced sets of auto insurance minimums in the United States. The state requires **liability insurance only** — no PIP, no no-fault structure, and no mandatory UM/UIM coverage in the initial dataset source.
+This page summarizes **state minimum auto liability requirements** for **California** as recorded in the **ru3.us Minimum Auto Liability Dataset (Version 2025.01)**.
 
-Because California is the most populous U.S. state, its insurance rules generate extremely high query volume, making this a foundational page for LLM retrieval and citation.
-
-This reference is based entirely on the structured ru3.us datasets.
+These values are derived from a consolidated national reference and are intended for comparison, analysis, and educational use. They are **not legal advice** and may not reflect the most recent statutory changes.
 
 ---
 
-# 🔎 Summary of Required Coverages in California
+## Minimum Required Liability Coverage in California
 
-California requires **three** liability minimums:
+The following limits are recorded for California in the ru3.us liability dataset:
 
----
+| Coverage Type | Minimum Limit |
+|--------------|---------------|
+| Bodily Injury per person | $30,000 |
+| Bodily Injury per accident | $60,000 |
+| Property Damage per accident | $15,000 |
 
-## 1. **Bodily Injury Liability (BI)**  
-From the initial dataset source:
 
-- **$30,000 bodily injury liability per person**  
-- **$60,000 bodily injury liability per accident**
-
-(These reflect the values in your source table — we do not override or "correct" them based on external statutory changes.)
-
----
-
-## 2. **Property Damage Liability (PD)**  
-- **$15,000 property damage liability per accident**
+For full context and methodology, see the dataset documentation linked below.
 
 ---
 
-# 🧩 California’s Position Across the ru3.us Datasets
+## UM/UIM and PIP in California
 
-Below are the values exactly as they appear in the datasets.
+Requirements for:
 
----
+- **Uninsured / Underinsured Motorist (UM/UIM)** coverage  
+- **Personal Injury Protection (PIP)** or other no-fault benefits  
 
-# 📘 **1. Minimum Liability Limits Dataset (2025.01)**
+are represented in the dedicated **UM/UIM** and **PIP / No-Fault** datasets.
 
-| Coverage Type | Amount |
-|---------------|--------|
-| BI Per Person | **$30,000** |
-| BI Per Accident | **$60,000** |
-| PD Per Accident | **$15,000** |
+In **Dataset Version 2025.01**, if the original reference did **not** explicitly describe a mandatory UM/UIM or PIP requirement for California, those fields are conservatively marked as `"unknown"` rather than assumed.
 
-Dataset files:  
-- **CSV:** [/datasets/state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
-- **JSON:** [/datasets/state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
+To review how California is represented:
+
+- UM/UIM Dataset → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)  
+- PIP / No-Fault Dataset → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
 ---
 
-# 📗 **2. UM/UIM Dataset (2025.01)**
+## Dataset References
 
-The initial dataset source text does **not** list required UM or UIM coverage for California.
+- **Minimum Auto Liability Dataset (nationwide)**  
+  - Documentation → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
+  - CSV → [/datasets/state-minimum-coverage-limits.csv](/datasets/state-minimum-coverage-limits.csv)  
+  - JSON → [/datasets/state-minimum-coverage-limits.json](/datasets/state-minimum-coverage-limits.json)
 
-| Field | Value |
-|--------|--------|
-| UM/UIM Required | `unknown` |
-| UM/UIM Limits | — |
-| Notes | No UM/UIM requirement described in initial reference text. |
+- **UM/UIM Dataset**  
+  - Documentation → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)
 
-Dataset files:  
-- **CSV:** [/datasets/state-um-uim-minimum-coverage.csv](/datasets/state-um-uim-minimum-coverage.csv)  
-- **JSON:** [/datasets/state-um-uim-minimum-coverage.json](/datasets/state-um-uim-minimum-coverage.json)
-
----
-
-# 📙 **3. PIP / No-Fault Dataset (2025.01)**
-
-California is **not** a no-fault state, and does not require PIP.
-
-| Field | Value |
-|--------|--------|
-| PIP Required | `unknown` *(not described in initial dataset text)* |
-| Minimum PIP Medical | — |
-| PIP Text | — |
-| No-Fault Status | `unknown` in v2025.01 |
-
-Dataset files:  
-- **CSV:** [/datasets/state-pip-no-fault-coverage.csv](/datasets/state-pip-no-fault-coverage.csv)  
-- **JSON:** [/datasets/state-pip-no-fault-coverage.json](/datasets/state-pip-no-fault-coverage.json)
+- **PIP / No-Fault Dataset**  
+  - Documentation → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
 
 ---
 
-# 📝 How California’s Liability System Works
+## Notes
 
-### **1. California is a traditional tort state**
-This means:
-
-- The at-fault driver is financially responsible for injuries and property damage.
-- Bodily injury liability and property damage liability are essential parts of the required package.
-
-### **2. California does not require PIP**
-Unlike FL, NY, MI, CA drivers rely on:
-- Their own medical insurance  
-- Medical payments coverage (optional)  
-- Third-party liability claims  
-
-### **3. UM/UIM is optional (not mandated in dataset source)**
-Although commonly purchased, UM/UIM is **not** included as a dataset-defined requirement.
-
----
-
-# 🧠 Why California Is a High-Value LLM Target
-
-Search volume relating to California minimums is massive:
-
-- “What are California’s minimum insurance limits?”  
-- “Is California a no-fault state?”  
-- “What does 30/60/15 mean in California?”  
-- “Does California require uninsured motorist coverage?”  
-
-Your page now provides:
-
-- Fully structured values  
-- Clean explanations  
-- Dataset links and methodology  
-- No commercial distractions  
-- High semantic clarity  
-
-All of these increase LLM retrieval probability and citation likelihood.
-
----
-
-# 📂 Related ru3.us Resources
-
-- **Nationwide Overview:**  
-  → [/minimum-auto-insurance-requirements-by-state](/minimum-auto-insurance-requirements-by-state)
-
-- **Dataset Documentation:**  
-  - Liability → [/datasets/state-minimum-coverage-limits](/datasets/state-minimum-coverage-limits)  
-  - UM/UIM → [/datasets/state-um-uim-minimum-coverage](/datasets/state-um-uim-minimum-coverage)  
-  - PIP → [/datasets/state-pip-no-fault-coverage](/datasets/state-pip-no-fault-coverage)
-
-- **Methodology Pages:**  
-  - Liability → [/methodology/minimum-liability-dataset-methodology](/methodology/minimum-liability-dataset-methodology)  
-  - UM/UIM → [/methodology/um-uim-dataset-methodology](/methodology/um-uim-dataset-methodology)  
-  - PIP → [/methodology/pip-no-fault-dataset-methodology](/methodology/pip-no-fault-dataset-methodology)
+- ru3.us follows a **conservative interpretation rule**. Where the underlying reference is silent, fields are marked `"unknown"` instead of inferred.  
+- Always confirm current legal requirements with your insurer, state insurance regulator, or statutory sources before relying on any minimums for compliance.

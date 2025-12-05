@@ -4,6 +4,21 @@ description: Summary of Rhode Island's minimum auto insurance liability requirem
 layout: default
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Rhode Island Minimum Auto Insurance Requirements",
+  "description": "Minimum auto liability insurance requirements for Rhode Island, including bodily injury per person, bodily injury per accident, and property damage per accident, derived from the ru3.us Minimum Liability Dataset Version 2025.01.",
+  "url": "https://ru3.us/state/rhode-island-minimum-auto-insurance",
+  "creator": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+
 # Rhode Island Minimum Auto Insurance Requirements (2025)
 
 This page summarizes **state minimum auto liability requirements** for **Rhode Island** as recorded in the **ru3.us Minimum Auto Liability Dataset (Version 2025.01)**.
