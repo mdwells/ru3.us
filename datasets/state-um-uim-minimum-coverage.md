@@ -74,3 +74,32 @@ Future versions may:
 - [Minimum Auto Liability Limits Dataset](/datasets/state-minimum-coverage-limits)
 - [Methodology for the UM/UIM Dataset](/methodology/um-uim-dataset-methodology)
 - [Methodology for the Minimum Auto Liability Dataset](/methodology/minimum-liability-dataset-methodology)
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "State Uninsured and Underinsured Motorist (UM/UIM) Insurance Requirements",
+  "description": "A structured dataset identifying which U.S. states explicitly require uninsured (UM) or underinsured (UIM) motorist coverage according to the initial reference. Fields not explicitly stated are marked as 'unknown.' Dataset Version 2025.01.",
+  "url": "https://ru3.us/datasets/state-um-uim-minimum-coverage",
+  "version": "2025.01",
+  "creator": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ru3.us/datasets/state-um-uim-minimum-coverage.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://ru3.us/datasets/state-um-uim-minimum-coverage.json"
+    }
+  ]
+}
+</script>
