@@ -1,0 +1,52 @@
+state_code,state_name,um_uim_required,um_uim_limits_text,notes
+AL,Alabama,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+AK,Alaska,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+AZ,Arizona,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+AR,Arkansas,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+CA,California,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+CO,Colorado,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+CT,Connecticut,yes,"$25,000 uninsured/underinsured motorist coverage per person; $50,000 uninsured/underinsured motorist coverage per accident.",
+DE,Delaware,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+FL,Florida,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+GA,Georgia,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+HI,Hawaii,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+ID,Idaho,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+IL,Illinois,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident.",
+IN,Indiana,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+IA,Iowa,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+KS,Kansas,yes,"$25,000 uninsured/underinsured motorist coverage per person; $50,000 uninsured/underinsured motorist coverage per accident.",
+KY,Kentucky,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+LA,Louisiana,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+ME,Maine,yes,"$50,000 uninsured/underinsured motorist coverage per person; $100,000 uninsured/underinsured motorist coverage per accident.",
+MD,Maryland,yes,"$30,000 uninsured/underinsured motorist coverage per person; $60,000 uninsured/underinsured motorist coverage per accident; $15,000 uninsured/underinsured property damage coverage per accident.",
+MA,Massachusetts,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident.",
+MI,Michigan,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+MN,Minnesota,yes,"$25,000 uninsured/underinsured motorist coverage per person; $50,000 uninsured/underinsured motorist coverage per accident.",
+MS,Mississippi,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+MO,Missouri,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident.",
+MT,Montana,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NE,Nebraska,yes,"$25,000 uninsured/underinsured motorist coverage per person; $50,000 uninsured/underinsured motorist coverage per accident.",
+NV,Nevada,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NH,New Hampshire,yes,"$25,000 uninsured/underinsured motorist coverage per person; $50,000 uninsured/underinsured motorist coverage per accident; $25,000 uninsured/underinsured motorist property damage coverage; $1,000 medical payments coverage.",
+NJ,New Jersey,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NM,New Mexico,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+NY,New York,yes,"$25,000 uninsured motorist bodily injury coverage per person; $50,000 uninsured motorist bodily injury coverage per accident.",
+NC,North Carolina,yes,"$50,000 uninsured/underinsured motorist coverage per person; $100,000 uninsured/underinsured motorist coverage per accident; $50,000 uninsured motorist property damage coverage per accident.",
+ND,North Dakota,yes,"$25,000 uninsured/underinsured motorist coverage per person; $50,000 uninsured/underinsured motorist coverage per accident.",
+OH,Ohio,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+OK,Oklahoma,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+OR,Oregon,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident.",
+PA,Pennsylvania,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+RI,Rhode Island,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+SC,South Carolina,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident; $25,000 uninsured motorist property damage coverage.",
+SD,South Dakota,yes,"$25,000 uninsured/underinsured motorist coverage per person; $50,000 uninsured/underinsured motorist coverage per accident.",
+TN,Tennessee,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+TX,Texas,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+UT,Utah,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+VT,Vermont,yes,"$50,000 uninsured/underinsured motorist coverage per person; $100,000 uninsured/underinsured motorist coverage per accident; $10,000 uninsured/underinsured motorist property damage coverage per accident.",
+VA,Virginia,yes,"$50,000 uninsured/underinsured motorist coverage per person; $100,000 uninsured/underinsured motorist coverage per accident; $25,000 uninsured/underinsured motorist property damage coverage per accident.",
+WA,Washington,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+WV,West Virginia,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident; $25,000 uninsured motorist property damage coverage.",
+WI,Wisconsin,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident.",
+WY,Wyoming,unknown,,"UM/UIM requirements not specified in initial source text; may be optional, not mandated, or omitted."
+DC,District of Columbia,yes,"$25,000 uninsured motorist coverage per person; $50,000 uninsured motorist coverage per accident; $5,000 uninsured motorist property damage coverage per accident.",
