@@ -72,3 +72,31 @@ Future versions may integrate a verified **no-fault classification** and deeper 
 - [Methodology for the PIP / No-Fault Dataset](/methodology/pip-no-fault-dataset-methodology)
 - [Methodology for the Minimum Auto Liability Dataset](/methodology/minimum-liability-dataset-methodology)
 - [Methodology for the UM/UIM Dataset](/methodology/um-uim-dataset-methodology)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "State Personal Injury Protection (PIP) / No-Fault Insurance Requirements",
+  "description": "A structured dataset summarizing which states explicitly require Personal Injury Protection (PIP) coverage and documenting PIP minimum medical coverage where stated. Fields not present in the initial reference are marked as 'unknown.' Dataset Version 2025.01.",
+  "url": "https://ru3.us/datasets/state-pip-no-fault-coverage",
+  "version": "2025.01",
+  "creator": {
+    "@type": "Organization",
+    "name": "ru3.us"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ru3.us/datasets/state-pip-no-fault-coverage.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://ru3.us/datasets/state-pip-no-fault-coverage.json"
+    }
+  ]
+}
+</script>
